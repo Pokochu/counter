@@ -10,11 +10,6 @@ public class Counter {
     private final String name;
     private final AtomicInteger value;
 
-    public Counter() {
-        this.name = "BaseCounter";
-        this.value = new AtomicInteger(0);
-    }
-
     public Counter(String name) {
         this.name = name;
         this.value = new AtomicInteger(0);
